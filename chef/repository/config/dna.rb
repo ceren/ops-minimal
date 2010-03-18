@@ -8,7 +8,7 @@ $:<< File.dirname(__FILE__) + '/../lib'
 
 HOSTS = {
 
-        'x0' => {
+        'hokuloa' => {
                 :recipes => [
                             :simpletest,
                             ],

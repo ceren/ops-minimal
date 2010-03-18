@@ -6,7 +6,7 @@ ssh_options[:forward_agent] = true
 
 set :dataroot, "/data/ops"
 set :chefroot, "/data/ops/current/chef/repository"
-set :repository, "git@github.com:davidx/ops-minimal.git"
+set :repository, "git@github.com:ceren/ops-minimal.git"
 set :timestamp, Time.now.strftime("%s")
 set :release_path, "#{dataroot}/releases/#{timestamp}"
 
